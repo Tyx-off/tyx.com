@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0a0a; /* Fond noir profond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.03); /* Effet transparent */
+    backdrop-filter: blur(15px); /* Flou derrière la carte */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+    border-radius: 24px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    border-radius: 12px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
